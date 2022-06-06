@@ -36,7 +36,8 @@ components:
         verifier:
           $ref: '#/components/schemas/User'
         video:
-          $ref: '#/components/schemas/User'
+          type: string
+          example: https://www.youtube.com/watch?v=QZf8vX4DF0A
     User:
       type: object
       properties:
